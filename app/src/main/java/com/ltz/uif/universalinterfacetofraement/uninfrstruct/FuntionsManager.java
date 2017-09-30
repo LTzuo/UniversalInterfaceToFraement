@@ -8,9 +8,14 @@ public class FuntionsManager {
 
     public static FuntionsManager instense;
 
-  //  public  static  FuntionsManager getInstense(){
-//        if（instense == null）{
-//            inst
-//        }
-//    }
+    public  static  FuntionsManager getInstense(){
+        if(instense == null){
+            instense = new FuntionsManager();
+        }
+        return instense;
+    }
+
+    public FuntionsManager(){
+
+    }
 }
