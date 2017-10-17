@@ -8,6 +8,7 @@ public class FuntionsManager {
 
     public static FuntionsManager instense;
 
+    //单例模式获取唯一对象
     public  static  FuntionsManager getInstense(){
         if(instense == null){
             instense = new FuntionsManager();
